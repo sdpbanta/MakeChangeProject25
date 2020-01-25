@@ -1,10 +1,16 @@
 package com.skilldistillery.homework;
 
+import java.util.Scanner;
+
 public class MakeChange {
 
 	public static void main(String[] args) {
-		System.out.println("Make Change");
-
+		Scanner kb = new Scanner(System.in);
+		
+		System.out.print("Price: ");
+		double price = kb.nextDouble();
+		
+		kb.close();
 	}
 
 }
